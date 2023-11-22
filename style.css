@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    /* font-family: 'Handlee', cursive; */
+    font-family: 'Montserrat', sans-serif;
+
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-2{
+    box-shadow:  0px 1px 5px green;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+/* top-nav-1 start here  */
+
+.navbar-logo{
+    border: 4px solid white;
+    margin-bottom: -4px;
+    width: 70px;
+    height: auto;
+}
+
+.nav-head{
+    font-size: 19px;
+    color: white;
+    font-weight:bold;
+}
+.nav-a:hover{
+   color:black;
+   text-decoration: underline;
+}
+.nav-a{
+    font-size: 12px;
+ }
+/* top-nav-1 end here  */
+
+/* top-nav-2 start here  */
+.top-nav-2{
+    background-color: white;
+}
+/* top-nav-2 end here  */
+
+/*  carousel start here*/
+ p{
+    text-align: justify;
+ }
+/*  carousel end here*/
+
+
+/* drop down css start here */
+.nav{
+    background-color: white;
+}
+.navbar-1,a{
+    padding: 0px 12px 10px 12px;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+}
+.nav a:hover{
+    color: green;
+    font-weight: 900;
+}
+/* 1st step */
+.dropdown-container-1{
+    display: inline;
+    position: relative;
+}
+/* 3rd step */
+.dropdown-container-1:hover .dropdown-content-1{
+    display: block;
+}
+/* 2nd step */
+.dropdown-content-1{
+    position: absolute;
+    top: 29px;
+    left: 6px;
+    background-color:#333333;
+    display: none;
+    padding-left: 10px;
+    width: 150px;
+}
+/* 4th step */
+.dropdown-content-1 a{
+display: block;
+}
+
+.dropdown-content-1 a{
+    color: white;
+}
+.dropdown-content-1 a:hover{
+    color: white;
+}
+.dropdown-content-1 a{
+    padding: 2px;
+    font-weight: Normal;
+}
+/* drop down css end here */
+
+/* carousel start here */
+.carousel-img{
+    border-radius: 4px;
+}
+/* carousel end here */
+
+/* Toggleable dynamic tab starts here  */
+.n{
+    background-color: #E9ECEF;
+    border-radius: 5px;
+}
+.other-section-1{
+    background-color:#F8F9FA ;
+    border-radius: 5px;
+}
+.other-section{
+    background-color:#F8F9FA ;
+    border-radius: 5px;
+}
+.tab-content,p{
+    padding:2px 4px;
+}
+.date{ 
+    font-size: 12px;
+}
+/* Toggleable dynamic tab end here  */
+
+/* Message section start hare */
+.message{
+    background-color:#F8F9FA ;
+    border-radius: 5px;
+    padding-top: 5px ;
+}
+/* Message section end here  */
+
+/* footer section start here  */
+.footer-color,.span1{
+    color: black;
+    text-align: center;
+    background-color:#FFFFFF ;
+    padding-top: 5px;
+}
+.footer-color{
+    box-shadow:  0px 1px 5px green!important;
+}
+/* footer section end here  */
+
+
+/* modal box start here  */
+.modal-bg-color{
+    background-color: #DEE2E6;
+}
+/* modal box end here  */
+
+
+/* media quary start here  */
+@media only screen and (min-width:584px) {
+    .nav-head{
+        font-size: 1.8vw;
+        margin-left: -20px;
+    }
+    #nav-head{
+        margin-left: -40px;
+    }
+    #nav-head-1{
+        margin-left:-20px;
+        font-weight:900;
+    }
+    .other-section-1{
+        height: 81vh;
+    }
+    .message-head{
+        font-size: 2.8vw; 
+    }
+    .Horizontal-width{
+        width:40vw;
+    }
+    .span1{
+        font-size: 1.4vw; 
+    }
+}
+@media only screen and (max-width:584px) {
+    .nav-head{
+        margin-left: 35px;
+        font-size:3vw;
+    }
+    #nav-head{
+        margin-left:-90px;
+        font-size:3vw;
+    }
+    #nav-head-1{
+        margin-left:-50px;
+        font-size:3vw;
+        font-weight:900;
+    }
+    .padding{
+        margin-left: 20px;
+    }
+    .other-section-1{
+        height: 79vh;
+    }
+    .message-head{
+        font-size: 2.8vw; 
+    }
+    .Horizontal-width{
+        width:40vw;
+    }
+    .span1{
+        font-size: 1.4vw; 
+    }
+}
+@media only screen and (max-width:767px) {
+    .dropdown-content-1{
+        top: 10px;
+        left: 75px;
+        background-color:#333333;
+        width: 150px;
+    }
+    .margin{
+        margin-top: 10px;
+    }
+}

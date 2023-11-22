@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /* font-family: 'Handlee', cursive; */
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.nav-logo{
+    border: 4px solid white;
+    margin-bottom: -4px;
+    width: 70px;
+    height: auto;
+}
+
+.nav-head{
+    font-size: 19px;
+    color: #FFFFFF;
+    font-weight:bolder;
+    text-shadow:0px 2px 5px #000;
+}
+.nav-a:hover{
+   color:green;
+}
+.line-height{
+    line-height: 0%;
+    font-size: 12px;
+}
+/* drop down css start here */
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+}
+.navbar{
+    background-color: cadetblue;
+    text-align: center;
+    padding: 20px;
+}
+.navbar a{
+    padding: 10px;
+    margin: ;
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.navbar a:hover{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 4px 8px;
+}
+/* 1st step */
+.dropdown-container{
+    display: inline;
+    position: relative;
+}
+/* 3rd step */
+.dropdown-container:hover .dropdown-content{
+    display: block;
+}
+/* 2nd step */
+.dropdown-content{
+   position: absolute;
+   top: 29px;
+   right: 15px;
+    background-color: cadetblue;
+    display: none;
+    min-width: 100px;
+}
+/* 4th step */
+.dropdown-content a{
+display: block;
+}
+/* drop down css end here */
+@media only screen and (min-width:584px) {
+    .nav-head{
+        font-size:2vw;
+        margin-left: -20px;
+    }
+    .nav-logo{
+        width:6.5vw;
+    }
+    #nav-head{
+        margin-left: -40px;
+    }
+    #nav-head1{
+        margin-left:-20px;
+        font-weight:900;
+    }
+}
+@media only screen and (max-width:584px) {
+    .nav-head{
+        margin-left: 20px;
+        font-size:3vw;
+    }
+    #nav-head{
+        margin-left:-90px;
+        font-size:3vw;
+    }
+    #nav-head1{
+        margin-left:-50px;
+        font-size:3vw;
+        font-weight:900;
+    }
+}
